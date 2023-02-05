@@ -88,10 +88,6 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal{
-  width: 320px;
-min-height: 576px
-}
 
 .portfolio{
   margin-top: 0;
@@ -232,10 +228,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
-.modal{
-  max-width: 392px;
-  max-height: 586px;
-}
 .menu-close:hover {
   background-color: var(--press-color);
 }
@@ -268,8 +260,9 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-bottom: 72px;
   }
   .modal{
-    max-width: 382px;
-  max-height: 576px;
+    width: 80vw;
+  height: 80vh;
+  overflow: auto;
   }
 }
 
