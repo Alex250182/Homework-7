@@ -148,6 +148,7 @@ min-height: 576px
 
 .burger{
   fill: #000;
+  stroke: #000;
 }
 .header-main{
   display: flex;
