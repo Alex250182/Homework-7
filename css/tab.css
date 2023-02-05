@@ -59,6 +59,15 @@
   .mobile-menu{
     display: none;
   }
+
+  .modal{
+    position: absolute;
+    width: 408px; 
+  height: 90vh;
+  overflow: auto;
+  }
+
+
 }
 
 

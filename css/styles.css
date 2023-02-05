@@ -330,9 +330,6 @@ button {
 
 .modal {
   position: absolute;
-  width:80vw ;
-  height: 80wh;
-  overflow: auto;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
@@ -346,6 +343,14 @@ button {
   padding-right: 24px;
   padding-top: 72px;
   padding-bottom: 24px;
+}
+
+@media screen and (min-width:1200px) {
+  .modal {
+    width: 408px;
+    height: 90vh;
+    overflow: auto;
+}
 }
 
 .modal-feedback {
