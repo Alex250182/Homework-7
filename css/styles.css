@@ -10,7 +10,6 @@
   --accent-color: #e7e9fc;
 }
 body {
-  padding-top: 78px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -42,7 +41,13 @@ button {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 427px) {
+  .container {
+    width: 320px;
+  }
+}
+
+@media screen and (min-width: 428px) and (max-width: 767px) {
   .container {
     width: 428px;
   }
@@ -821,14 +826,12 @@ textarea {
 }
 
 /*_________________CUSTOMERS_____________________*/
-@media screen and (min-width:1200px) {
-  
-
-.customers {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  padding-left: 0;
-}
+@media screen and (min-width: 1200px) {
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 0;
+  }
 }
 
 @media screen and (max-width: 1199px) {
